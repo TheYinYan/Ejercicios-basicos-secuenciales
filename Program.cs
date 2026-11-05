@@ -111,6 +111,26 @@ void Ejercicio5(){
     Console.WriteLine("--- Ejercicio 5 ---");
     Console.WriteLine("");
 
+    Console.Write("Introduce el primer número: ");
+    int num1 = Convert.ToInt32(Console.ReadLine());
+
+    Console.Write("Introduce el segundo número: ");
+    int num2 = Convert.ToInt32(Console.ReadLine());
+
+    Console.Write("Introduce el tercero número: ");
+    int num3 = Convert.ToInt32(Console.ReadLine());
+
+    Console.Write("Introduce el cuarto número: ");
+    int num4 = Convert.ToInt32(Console.ReadLine());
+
+    int suma = num1 + num2;
+    int producto = num3 * num4;
+
+    Console.WriteLine("");
+    Console.WriteLine($"La suma de {num1} + {num2} = {suma}");
+    Console.WriteLine("");
+    Console.WriteLine($"El producto de {num3} y {num4} es {producto}");
+
 }
 void Ejercicio6(){
     Console.WriteLine("");
